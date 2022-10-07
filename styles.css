@@ -1,0 +1,94 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero {
+    background-image: url("images/Moldova.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activities {
+    background-color: #F1FAEE;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#visit {
+    font-size: 48px;
+    color: whitesmoke;
+    text-shadow: 0 0 5px black;
+    margin: 120px 20px 0px 20px;
+}
+
+#enjoy {
+    font-size: 24px;
+    width: 470px;
+    color: whitesmoke;
+    text-shadow: 0 0 5px black;
+    margin: 20px 20px 120px 20px;
+}
+
+#activities {
+    font-size: 24px;
+    margin: 40px 0 50px 0;
+}
+
+.columns {
+    display: flex;
+    align-items: center;
+}
+
+#Nistru, #Cricova, #Mamaliga {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#h4-txt1, #h4-txt2, #h4-txt3, #p-txt1, #p-txt2, #p-txt3 {
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+#h4-txt1, #h4-txt2, #h4-txt3, #Nistru, #Cricova, #Mamaliga {
+    margin: 20px 40px 17px 5px;
+}
+
+.guide {
+    height: 300px;
+}
+
+.card {
+    background: #A8DADC;
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    width: 450px;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 10px;
+    padding: 20px 10px 20px 10px;
+}
+
+#card-photo {
+    width: 150px;
+    border-radius: 10px;
+    margin: 0 7px 0px 7px;
+}
